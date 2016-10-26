@@ -55,6 +55,8 @@ The maze is generated using an array of arrays, with each value representing a 2
     ];
 ```
 
+### Object Oriented Design
+
 The map is shared by each of the game classes and is used primarily for rendering and detecting collisions between game objects. Each class, as a result, has methods pertaining to the map. Each class is connected by an overarching game class which is used to pass map function arguments to relevant classes. Once clicked, the game sets an interval that tells the game when to both pass arguments and render each of the game components:
 
 ```js
@@ -84,6 +86,8 @@ The map is shared by each of the game classes and is used primarily for renderin
 ```
 
 As can be seen in the above function, the interval also takes in win/loss conditions that upon being met will terminate the interval and end the game.
+
+### Maze Navigation
 
 Perhaps the most challenging part of building this game was the generation of accurate movement and collision detection. 
 ```js
