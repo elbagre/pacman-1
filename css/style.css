@@ -1,48 +1,47 @@
 body {
   font-family: "Press Start 2P", cursive;
   background: #000;
+  color: #fff;
+  min-width: 1000px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 h1 > img {
-  padding: 50px;
-  display: block;
   margin: 0 auto;
-  max-height: 50px;
-  width: 100%;
-  max-width: 500px;
 }
 
 .main {
   display: flex;
-  flex-direction: row;
-  color: white;
-  height: 100%;
-  width: 100%;
+  justify-content: center;
 }
 
 .links {
   display: flex;
-  color: white;
-  width: 33%;
   align-items: center;
+  margin-left: 20px;
 }
 
 .links > ul {
   display: flex;
   flex-direction: column;
-  border-radius: 5px;
+
 }
 
 .links a {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px;
 }
 
 .links img {
-  margin-right: 20px;
-  max-height: 30px;
-  max-width: 30px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 .links li:last-child img {
@@ -50,15 +49,12 @@ h1 > img {
 }
 
 .filler {
-  width: 33%;
-  display: flex;
-  justify-content: center;
 }
 
 canvas {
-  display: block;
+  display: flex;
+  width: 500px;
   border: 5px solid yellow;
-  max-width: 500px;
   margin-top: 20px;
 }
 
@@ -74,8 +70,6 @@ p {
 .instructions {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  width: 33%;
 }
 
 .instructions > ul {
@@ -83,13 +77,13 @@ p {
   color: #fff;
   list-style: none;
   padding: 20px;
-  max-width: 440px;
+  max-width: 250px;
   display: flex;
   align-items: baseline;
   flex-direction: column;
+  resize: none;
 }
 
 .instructions > ul > li {
-  margin-left: 65px;
   padding: 10px 0;
 }
