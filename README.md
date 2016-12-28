@@ -1,5 +1,7 @@
 # Pacman
 
+![Alt text](//images/gameover.png)
+
 ## Background
 
 Pacman is a classic arcade game that has remained popular to the present day. 
