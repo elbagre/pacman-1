@@ -1,6 +1,6 @@
 # Pacman
 
-![Alt text](/app/assets/images/wakawaka.png)
+![Alt text](/images/wakawaka.png)
 
 ## Background
 
