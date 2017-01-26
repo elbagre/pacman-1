@@ -1,10 +1,10 @@
 # Pacman
 
-![Alt text](//images/gameover.png)
+![Alt text](/app/assets/images/wakawaka.png)
 
 ## Background
 
-Pacman is a classic arcade game that has remained popular to the present day. 
+Pacman is a classic arcade game that has remained popular to the present day.
 
 The basic concept of the game is as follows:
 
@@ -28,7 +28,7 @@ The basic concept of the game is as follows:
 
 ### Maze
 
-The maze is generated using an array of arrays, with each value representing a 25px * 25px slice of the canvas. The 'map', as it is called, denotes walls with '0' and open navigable spaces with '1'. The map is used by the canvas to render each of the components onto the canvas. 
+The maze is generated using an array of arrays, with each value representing a 25px * 25px slice of the canvas. The 'map', as it is called, denotes walls with '0' and open navigable spaces with '1'. The map is used by the canvas to render each of the components onto the canvas.
 
 ```js
     this.map = [
@@ -91,7 +91,7 @@ As can be seen in the above function, the interval also takes in win/loss condit
 
 ### Maze Navigation
 
-Perhaps the most challenging part of building this game was the generation of accurate movement and collision detection. 
+Perhaps the most challenging part of building this game was the generation of accurate movement and collision detection.
 ```js
   checkCollision(direction) {
     let mapX = Math.floor(this.x/25);
