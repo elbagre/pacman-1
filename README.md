@@ -1,6 +1,6 @@
 # Pacman
 
-![Live](http://souiukoto.github.io/pacman)
+[Live](http://souiukoto.github.io/pacman)
 
 ![Alt text](/images/wakawaka.png)
 
